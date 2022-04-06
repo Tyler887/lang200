@@ -11,8 +11,8 @@
  *    list of conditions and the following disclaimer.
  *
  * 2. Redistributions in binary form must reproduce the above copyright notice,
- *  this list of conditions and the following disclaimer in the documentation
- *  and/or other materials provided with the distribution.
+ *    this list of conditions and the following disclaimer in the documentation
+ *    and/or other materials provided with the distribution.
  *
  * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
  * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
@@ -31,14 +31,12 @@
 #include <string.h>
 #include <stdio.h>
 
-#include <stdio.h>
-
-int main() {
+int main(int argc, char* argv[] ) {
   if ( argc > 1 ) {
       printf("[!] Error: Too many arguments passed to me, sorry.");
       return 1;
   }
-  if ( argc == 0 ) {
+  if ( argv[1] == 0 ) {
       printf("[!] Error: No file given to read.");
   }
   // More to come soon - lang200 is alphaware
