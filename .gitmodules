@@ -1,0 +1,12 @@
+[submodule "modules/termbox"]
+	path = modules/termbox
+	url = https://github.com/termbox/termbox2
+[submodule "modules/collections"]
+	path = modules/collections
+	url = https://github.com/srdja/Collections-C
+[submodule "modules/libzip"]
+	path = modules/libzip
+	url = https://github.com/nih-at/libzip
+[submodule "modules/libtar"]
+	path = modules/libtar
+	url = https://github.com/tklauser/libtar
